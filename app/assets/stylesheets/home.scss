@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+   display: table;
+   width: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #222;
+   background: rgb(131,58,180);
+   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+ }
+
+.text {
+    position: relative;
+    text-align: center;
+    color: #fff
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    float: left;
+}
+
+
+
+.l2 {
+   list-style-type: none;
+   display: flex;
+   flex-direction: row;
+   margin-right: 30px;
+   padding: 0;
+   margin-bottom: 10px;
+}
+
+.l2 li {
+   margin-left: 25px;
+}
+
+
+.rainbow {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 2px 2px 5px black;
+  }
+
